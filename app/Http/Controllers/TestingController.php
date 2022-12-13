@@ -9,4 +9,8 @@ class TestingController extends Controller
     public function index(){
         return view('pp');
     }
+
+    public function yj(){
+        return view('yj');
+    }
 }

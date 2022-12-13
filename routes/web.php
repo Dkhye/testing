@@ -20,3 +20,5 @@ Route::get('/', function () {
 //Route::get('testing','App\Http\Controllers\TestingController@index');
 
 Route::get('pp','App\Http\Controllers\TestingController@index');
+
+Route::get('yj', 'App\Http\Controllers\TestingController@yj');
