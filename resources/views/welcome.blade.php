@@ -29,5 +29,6 @@
             @yield('content')
             @yield('body')
         </div>
+        @yield('js')
     </body>
 </html>
