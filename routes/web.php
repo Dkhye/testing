@@ -21,3 +21,4 @@ Route::get('/', function () {
 //Route::get('testing', 'App\Http\Controllers\TestingController@index');
 Route::get('about', 'App\Http\Controllers\JtestController@index');
 
+Route::get('yj', 'App\Http\Controllers\TestingController@yj');
