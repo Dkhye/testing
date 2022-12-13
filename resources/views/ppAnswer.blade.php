@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('body')
-<div>
     13/12/2022  
-</div>
+    <br>
+    <a href="{{ url(' ') }}" class="btn btn-primary" style="color:blue;">Back</a>
 @endsection
