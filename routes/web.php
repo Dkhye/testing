@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/testing', [TestingController::class, 'index']);
 //Route::get('/firas', [TestingController::class, 'show']);
+Route::get('yj', 'App\Http\Controllers\TestingController@index');
