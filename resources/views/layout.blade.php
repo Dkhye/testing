@@ -24,9 +24,9 @@
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
            @yield('body')
            <!-- this yield body actually represents body section in index.blade.php -->
-           @yield('content')
+         <!-- question1 -->
 
         </div>
     </body>
+
 </html>
-<!-- this is master page -->

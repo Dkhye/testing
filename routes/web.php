@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+
+//Route::get('testing', 'App\Http\Controllers\TestingController@index');
+Route::get('about', 'App\Http\Controllers\JtestController@index');
+
