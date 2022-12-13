@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+
+Route::get('firas', [TestingController::class, 'firas']);
 
 Route::get('yj', 'App\Http\Controllers\TestingController@yj');
