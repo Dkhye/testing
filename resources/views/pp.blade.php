@@ -1,7 +1,3 @@
-@extends ('welcome') 
-
-@section('body')
-<div style="color:blue;">
+<div style="color:green;">
     What is the date today?
 </div>
-@endsection

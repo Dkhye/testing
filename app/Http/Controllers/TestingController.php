@@ -19,4 +19,8 @@ class TestingController extends Controller
     public function yj(){
         return view('yj');
     }
+
+    public function pp(){
+        return view('ppAnswer');
+    }
 }

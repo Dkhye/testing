@@ -18,9 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-//Route::get('testing','App\Http\Controllers\TestingController@index');
-
-Route::get('pp','App\Http\Controllers\TestingController@index');
+Route::get('ppAnswer','App\Http\Controllers\TestingController@pp');
 
 Route::get('firas', [TestingController::class, 'firas']);
 

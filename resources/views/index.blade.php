@@ -8,8 +8,9 @@
             @include('firas')
             <div class="text-center"><a href="{{ url('firas') }}" class="btn btn-primary">The Asnwer</a></div>
         </div>
-
+        <div style>
+            @include('pp')
+            <a href="{{ url('ppAnswer') }}" class="btn btn-primary" style="color:blue;">Click here to see date</a>
+        </div>
 </div>
-
-
 @endsection
