@@ -20,12 +20,12 @@
             }
             h1 {
                 text-align: center;
-                color: white;
+                color: black;
             }
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0 text-white">
+        <div class="relative flex items-top justify-center min-h-screen   sm:items-center py-4 sm:pt-0 text-white">
             @yield('content')
             @yield('body')
         </div>

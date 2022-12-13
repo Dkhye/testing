@@ -1,14 +1,7 @@
-@extends('welcome')
 
-@section('content')
-@section('body')
-
-<div class="text-center">
-    @yield('firas')
-    <h1>Firas is my name</h1>
-    
+<div>
+    <h1>Hi there, do you like learning codes?</h1>
+    <a href=""></a>
 </div>
 
     
-@endsection
-@endsection

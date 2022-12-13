@@ -11,8 +11,12 @@ class TestingController extends Controller
         return view('index');
     }
 
-    public function show()
+    public function firas()
     {
-        return view('firas');
+        return view('firas_answer');
+    }
+
+    public function yj(){
+        return view('yj');
     }
 }
