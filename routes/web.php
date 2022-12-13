@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('yj', 'App\Http\Controllers\TestingController@index');
+
+Route::get('yj', 'App\Http\Controllers\TestingController@yj');
