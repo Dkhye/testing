@@ -3,7 +3,7 @@
 @section('body')
 <div>
         @include('yj')
-        Hi, What is your name? hhh
+        Hi, What is your name? hhhh
 </div>
 @endsection
 
