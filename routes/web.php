@@ -20,6 +20,8 @@ Route::get('/', function () {
 
 Route::get('ppAnswer','App\Http\Controllers\TestingController@pp');
 
+//Route::get('testing', 'App\Http\Controllers\TestingController@index');
+Route::get('jeevitha', 'App\Http\Controllers\JtestController@index');
 Route::get('firas', [TestingController::class, 'firas']);
-
 Route::get('yj', 'App\Http\Controllers\TestingController@yj');
+

@@ -1,6 +1,9 @@
 @extends('welcome')
 
 @section('body')
+
+
+
 <div>
         Hi, What is your name and how old are you? hhhh
         <a href="{{ url('yj') }}" class="btn btn-primary">Apply answer</a>
@@ -12,5 +15,19 @@
             @include('pp')
             <a href="{{ url('ppAnswer') }}" class="btn btn-primary" style="color:blue;">Click here to see date</a>
         </div>
+        
+        <div style= "color: black">
+            @include('jeevitha')
+                hello world
+            </div>
 </div>
+
+
+@endsection
+<!-- question 2 -->
+
+@section('js')
+<script> 
+
+</script>
 @endsection

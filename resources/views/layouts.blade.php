@@ -18,20 +18,12 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
-            h1 {
-                text-align: center;
-                color: black;
-            }
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
            @yield('body')
-           <!-- this yield body actually represents body section in index.blade.php -->
-           @yield('content')
 
         </div>
-        @yield('js')
     </body>
 </html>
-<!-- this is master page -->
