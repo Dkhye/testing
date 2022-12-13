@@ -18,6 +18,10 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            h1 {
+                text-align: center;
+                color: black;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -27,6 +31,7 @@
            @yield('content')
 
         </div>
+        @yield('js')
     </body>
 </html>
 <!-- this is master page -->
