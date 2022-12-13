@@ -1,10 +1,10 @@
 @extends('welcome')
 
 @section('body')
-@include('yj')
-  
-    {{-- <div >
-        <h1>Hello Wold!!</h1> 
-    </div> --}}
+<div>
+        Hi, What is your name and how old are you? hhhh
+        <a href="{{ url('yj') }}" class="btn btn-primary">Apply answer
+</div>
+@endsection
 
 @endsection
