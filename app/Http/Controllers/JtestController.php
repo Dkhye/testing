@@ -8,7 +8,7 @@ class JtestController extends Controller
 {
     public function index()
     {
-       return view('index');
+       return view('hello');
        //this code is to show the index.blade.php
     }
 }
