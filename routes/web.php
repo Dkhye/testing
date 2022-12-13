@@ -18,10 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-//Route::get('yj', [TestingController::class, 'yj']);
 
 Route::get('firas', [TestingController::class, 'firas']);
 
-
-//Route::get('/firas', [TestingController::class, 'show']);
 Route::get('yj', 'App\Http\Controllers\TestingController@yj');
